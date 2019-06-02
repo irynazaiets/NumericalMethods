@@ -1,0 +1,9 @@
+D:\3 r\Chyselni\Rozrah2\Rozrah2\bin\Debug\Rozrah2.exe.config
+D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.exe
+D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.pdb
+D:\3 r\Chyselni\Rozrah2\Rozrah2\bin\Debug\Rozrah2.exe
+D:\3 r\Chyselni\Rozrah2\Rozrah2\bin\Debug\Rozrah2.pdb
+D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.csprojResolveAssemblyReference.cache
+D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.Form1.resources
+D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.Properties.Resources.resources
+D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.csproj.GenerateResource.Cache
