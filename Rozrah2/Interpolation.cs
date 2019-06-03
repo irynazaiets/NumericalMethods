@@ -8,6 +8,8 @@ namespace Rozrah2
 {
     public class Interpolation
     {
+
+
         private double[,] _interpValue;
         private int _rowCount;
 
@@ -38,7 +40,7 @@ namespace Rozrah2
             }
         }
 
-        //Обчислення значення інтерполяційного многочлена в заданій точці, підставивши попередньо отримані значення розділених різниць
+        //Обчислення значення інтерполяційного многочлена в заданій точці
 
         public double CalcPolynomialInPoint( double dot ) {
             double L_horn = InterpValue[0, 6];
