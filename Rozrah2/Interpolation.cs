@@ -9,7 +9,7 @@ namespace Rozrah2
     public class Interpolation
     {
 
-
+        public const int N = 5;
         private double[,] _interpValue;
         private int _rowCount;
 
@@ -19,7 +19,7 @@ namespace Rozrah2
         } 
         
         public Interpolation( ) {
-            InterpValue = new double[6, 10];
+            InterpValue = new double[N+1, N + 5];
         }
 
         public void CreateTable( double[,] matrix, int rowCount, int columnCount ) {
@@ -43,11 +43,10 @@ namespace Rozrah2
         //Обчислення значення інтерполяційного многочлена в заданій точці
 
         public double CalcPolynomialInPoint( double dot ) {
-            double L_horn = InterpValue[0, 6];
-            for( int j = 6 - 2; j >= 0; --j )
-            {
+            double L_horn = InterpValue[0, N + 1];
+            for( int j = (N + 1) - 2; j >= 0; --j )
                 L_horn = InterpValue[0, j + 1] + ( dot - InterpValue[j, 0] ) * L_horn;
-            }
+            
 
             /*
             double[] mnognyk = new double[_rowCount];
@@ -81,15 +80,15 @@ namespace Rozrah2
         }
 
         public string FormMnogochlen( int n ) {
-        string anotherStr = Math.Round( InterpValue[0, 6],5).ToString();
+        string anotherStr = Math.Round( InterpValue[0, N + 1],N).ToString();
         
         //формуємо інтерполяційний многочлен
         
         for(int j = n-2; j>=0;--j )
         {
             var s = $"({anotherStr})";
-            anotherStr = InterpValue[j, 0]>= 0? InterpValue[j, 0] == 0 ? $"{Math.Round( InterpValue[0,j+1],5)}+x" : $"{Math.Round( InterpValue[0, j + 1],5)}+(x-{Math.Round( InterpValue[j, 0],5)})" 
-                                                : $"{Math.Round( InterpValue[0, j + 1],5)})+(x+{Math.Round( InterpValue[j, 0],5)})";
+            anotherStr = InterpValue[j, 0]>= 0? InterpValue[j, 0] == 0 ? $"{Math.Round( InterpValue[0,j+1], N)}+x" : $"{Math.Round( InterpValue[0, j + 1], N)}+(x-{Math.Round( InterpValue[j, 0], N)})" 
+                                                : $"{Math.Round( InterpValue[0, j + 1], N)})+(x+{Math.Round( InterpValue[j, 0], N)})";
             anotherStr += s;
         }
 
