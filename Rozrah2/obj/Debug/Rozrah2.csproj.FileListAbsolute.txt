@@ -7,3 +7,13 @@ D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.csprojResolveAssemblyReference
 D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.Form1.resources
 D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.Properties.Resources.resources
 D:\3 r\Chyselni\Rozrah2\Rozrah2\obj\Debug\Rozrah2.csproj.GenerateResource.Cache
+E:\Zaiets\Rozrah2\Rozrah2\bin\Debug\Rozrah2.exe.config
+E:\Zaiets\Rozrah2\Rozrah2\bin\Debug\Rozrah2.exe
+E:\Zaiets\Rozrah2\Rozrah2\bin\Debug\Rozrah2.pdb
+E:\Zaiets\Rozrah2\Rozrah2\obj\Debug\Rozrah2.csprojAssemblyReference.cache
+E:\Zaiets\Rozrah2\Rozrah2\obj\Debug\Rozrah2.Form1.resources
+E:\Zaiets\Rozrah2\Rozrah2\obj\Debug\Rozrah2.Properties.Resources.resources
+E:\Zaiets\Rozrah2\Rozrah2\obj\Debug\Rozrah2.csproj.GenerateResource.cache
+E:\Zaiets\Rozrah2\Rozrah2\obj\Debug\Rozrah2.csproj.CoreCompileInputs.cache
+E:\Zaiets\Rozrah2\Rozrah2\obj\Debug\Rozrah2.exe
+E:\Zaiets\Rozrah2\Rozrah2\obj\Debug\Rozrah2.pdb
